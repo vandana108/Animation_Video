@@ -1,0 +1,103 @@
+@font-face {
+  font-family: nb;
+  src: url(./NBInternationProBoo.ttf);
+}
+@font-face {
+  font-family: rejoy;
+  src: url(./Rejoice-Headline.ttf);
+}
+  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'nb';
+
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+#page1
+{
+  height: 100vh;
+  width: 100%;
+ // background-color: #9c2525;
+  position: relative;
+}
+
+#cursor h5{
+  font-size: 1.2vw;
+  font-weight: 500;
+  background-color: ;
+}
+ #page1 video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+ }
+
+ #page1-content{
+    height: 100%;
+    width: 100%;
+    /* background-color: #090101ed; */
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-bottom: 5vw ; */
+   
+ }
+ nav{
+  /* height: 100px;
+  width: 100px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: flex-end;
+  /* width: 100%; */
+   /* background-color: red; */ 
+  padding: 3vw 3vw;
+
+
+ }
+ 
+
+ nav h3{
+  font-size: 2.4vw;
+  font-weight: 100;
+  
+  justify-content: space-between;
+ 
+  /* margin-right: 0px;
+  margin-left: 0px;  */
+  
+
+ }
+ nav h4{
+  font-size: 1.4vw;
+  font-weight: 100;
+  /* margin-left: 5px; */
+ }
+ /* #page1-content h1 span{
+  font-family: rejoy;
+  font-size: 27vw;
+  font-weight: 100;
+  line-height: 27;
+ } */
+
+ #page1-content h1{
+  font-family: rejoy;
+  font-size:27vw;
+  font-weight: 100;
+  line-height: 27vw;
+
+ }
+
+   
